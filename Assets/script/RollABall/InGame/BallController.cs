@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Rigidbody ballRigidBody;
+    private void Start()
     {
-        
+        ballRigidBody = this.GetComponent<Rigidbody>();
+    }
+    public void BallMove(Vector3 direction)
+    {
+        ballRigidBody.AddForce(direction);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        Debug.Log(collision.gameObject.name);
     }
 }
