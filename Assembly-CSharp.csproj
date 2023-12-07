@@ -68,17 +68,20 @@
     <Compile Include="Assets\script\RollABall\InGame\InGameTimer.cs" />
     <Compile Include="Assets\script\Test\DateType.cs" />
     <Compile Include="Assets\script\RollABall\InGame\Goal.cs" />
+    <Compile Include="Assets\script\RollABall\InGame\BulletShooter.cs" />
     <Compile Include="Assets\script\Test\StringConcatenation.cs" />
+    <Compile Include="Assets\script\RollABall\InGame\InGameTimer1.cs" />
     <Compile Include="Assets\script\Test\ArithmeticOperator.cs" />
     <Compile Include="Assets\script\Test\BasicMovement.cs" />
     <Compile Include="Assets\script\RollABall\InGame\BallController.cs" />
+    <Compile Include="Assets\script\RollABall\InGame\Bullet.cs" />
     <Compile Include="Assets\script\RollABall\InGame\BallInput.cs" />
     <Compile Include="Assets\script\Test\ArrayExample.cs" />
     <Compile Include="Assets\script\RollABall\InGame\BallData.cs" />
     <Compile Include="Assets\script\Test\ComparisonOperator.cs" />
-    <Compile Include="Assets\script\RollABall\InGame\BulletShooter.cs" />
-    <Compile Include="Assets\script\RollABall\InGame\Bullet.cs" />
-    <Compile Include="Assets\script\RollABall\InGame\InGameTimer1.cs" />
+    <Compile Include="Assets\script\RollABall\InGame\CoinMaker.cs" />
+    <Compile Include="Assets\script\RollABall\InGame\Coin.cs" />
+    <Compile Include="Assets\script\RollABall\InGame\ScoreManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
